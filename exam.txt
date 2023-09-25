@@ -1,0 +1,31 @@
+1. Show number's dividends from 100 to 1000.
+Input | Output
+50      | 100, 150, 200, 250, 300 ... 950
+70      | 140 , 210, 280, 980 ...
+85      | 170, 255, 340, ... 935
+
+2. We need to swap the case of all letters in a string. Provide us a function for doing it.
+swapCase(string) : string
+Input             |     Output
+aBcD             |      AbCd
+jAvaScRIPt     |     JaVAsCripT
+jeDAcAdemY |     JEdaCaDEMy
+
+
+3. Show the count of the both odd and even numbers from array.
+let numbers = [1,4,7,8,3,5,0,2,4,6,12,15,18,46,45,48,97,84]
+
+For example, countEvensAndOdds(numbers);   // evens: 12, odds: 13
+
+
+4. prop2Taker adında funksiya yaradın. Argument kimi obyekt alsın. Həmin obyektin 'prop-2' propertysinin value-nu çıxarsın. Məs:
+prop2Taker({  one: 1,  'prop-2': 2}) // 2
+prop2Taker({  'prop-2': 'two',  prop: 'test'}) // 'two'
+
+5. Elə bir funksiya yaradın ki , bir cümlədə olan sözlər əksinə olaraq bizə geri qayıtsın.
+reverseWords("hello world! ") ➞ "world! hello"
+reverseWords("a good example") ➞ "example good a"
+reverseWords("Alion GreenHeart") ➞ "GreenHeart Alion"
+
+
+6. https://jsonplaceholder.typicode.com/users -> bu linkdeki datani goturub bir deyisene menimsedin,ekranda kartlar hazirlayin.Bu kartlarin icerisinde data-dan gelen id,name,username,email yazilsin
